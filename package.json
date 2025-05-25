@@ -1,0 +1,14 @@
+{
+  "name": "vortex",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:storefront\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:storefront": "cd storefront && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../storefront && npm install",
+    "build:all": "cd backend && npm run build && cd ../storefront && npm run build",
+    "update:submodules": "git submodule update --remote --merge"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
