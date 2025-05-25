@@ -1,3 +1,6 @@
 [submodule "storefront"]
 	path = storefront
 	url = https://github.com/codeville-org/vortex-storefront.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/codeville-org/vortex-backend.git
