@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "name": "🏠 Root (Vortex)",
+      "path": "."
+    },
+    {
+      "name": "🎨 Storefront",
+      "path": "./storefront"
+    },
+    {
+      "name": "⚙️ Backend",
+      "path": "./backend"
+    }
+  ],
+  "settings": {
+    "git.detectSubmodules": true,
+    "git.fetchOnPull": true,
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/.git": true,
+      "**/.DS_Store": true
+    }
+  }
+}

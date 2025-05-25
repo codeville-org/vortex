@@ -90,3 +90,28 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For questions or support, reach out to the Codeville team at [support@codeville.org](mailto:support@codeville.org) or open an issue in this repository.
+
+---
+
+## _Best Practices_
+
+# 1. Always update submodules when starting work
+
+git submodule update --remote --merge
+
+# 2. Work in individual submodules
+
+cd storefront
+
+# make changes
+
+git add .
+git commit -m "feat: add product listing"
+git push
+
+# 3. Update main repository to track changes
+
+cd ..
+git add storefront
+git commit -m "Update storefront submodule"
+git push
